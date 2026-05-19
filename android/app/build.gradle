@@ -42,10 +42,10 @@ android {
 
     defaultConfig {
         applicationId "com.example.ppe_detector_v2"
-        minSdk flutter.minSdkVersion
-        targetSdk flutter.targetSdkVersion
-        versionCode flutterVersionCode.toInteger()
-        versionName flutterVersionName
+        minSdkVersion 21     // ← ЭТО
+        targetSdkVersion 31
+        versionCode 1
+        versionName "1.0"
     }
 
     buildTypes {
