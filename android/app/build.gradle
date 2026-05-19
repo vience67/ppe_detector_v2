@@ -42,7 +42,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.ppe_detector_v2"
-        minSdkVersion 21     // ← ЭТО
+        minSdkVersion 26     // ← ЭТО
         targetSdkVersion 31
         versionCode 1
         versionName "1.0"
